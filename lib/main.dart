@@ -3,7 +3,7 @@ import 'package:weather_app/pages/homepage.dart';
 import 'package:go_router/go_router.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp( MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -14,6 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp.router(
       routerConfig: _router,
+
 
       theme: ThemeData(
 
